@@ -77,8 +77,9 @@ The benefit of this system is three fold:
 
 Limitation:
 1. at the component boundary, its hard to set an arbitrary depth and have the components children update their relative depths.
+2. may be difficult to use 3rd part component libs and incorporate depth based styling
 
-atm the best way to overcome that is to pass a depth prop and have children increment on it...
+atm the best way to overcome the component boundary issue is to pass a depth prop and have children increment on it...
 there is a benefit to handling depth manually in that you can choose when and where the depth is incremented.
 For example, you may not want `<p></p>` to automatically increment.
 may be possible to create a global [directive](https://docs.solidjs.com/references/api-reference/special-jsx-attributes/use_) or compile-time helper.
@@ -120,6 +121,15 @@ may be possible to create a global [directive](https://docs.solidjs.com/referenc
   .deep-component-class {@apply .tier-3} // which would be a lot of redundant code
   // could use js to dynamically update comp children based in parents given depth
   //data-depth={depth+1}
+
+
+  // the benefit of this approach is you can target when to increment depth
+  .tier-2 {
+    …
+    &> .d\+1 { @apply .tier-3 }
+    &> .d\+2 { @apply .tier-4 }
+    &> .d\+3 { @apply .tier-5 }
+  }
 }
 ```
 
