@@ -30,6 +30,8 @@ Transition/animation:
 - [solid-spring](https://github.com/Aslemammad/solid-spring)
 - [solid-auto-animate](https://github.com/lxsmnsyc/solid-auto-animate)
 - [tween](https://github.com/solidjs-community/solid-primitives/tree/main/packages/tween#readme)
+- https://www.solidjs.com/examples/cssanimations
+- https://www.solidjs.com/docs/latest/api#usetransition
 
 3rd party transition/animation
 - [solid + gsap](https://dev.to/hnrq/solid-gsap-the-superhero-we-need-577j)
@@ -38,6 +40,7 @@ Transition/animation:
 Layout
 - [solid-resizable-panels](https://github.com/elite174/solid-resizable-panels)
 - [solid-split-pane](https://github.com/bluskript/solid-split-pane)
+- [tailwind-layouts](https://tailwind-layouts.vercel.app/?environment=solid-js)
 
 Reactive Primitives: 
 - [keyed](https://github.com/solidjs-community/solid-primitives/tree/main/packages/keyed#readme)
@@ -71,3 +74,7 @@ Misc:
 - [usePreferredDark](https://solidjs-use.github.io/solidjs-use/core/usePreferredDark)
 - [useStyleTag](https://solidjs-use.github.io/solidjs-use/core/useStyleTag)
 - [useTitle](https://solidjs-use.github.io/solidjs-use/core/useTitle)
+
+
+App References:
+- [made-in-solid](https://github.com/solidjs-community/made-in-solid#readme)

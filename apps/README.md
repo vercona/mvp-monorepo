@@ -53,6 +53,8 @@ graphs
 - [solid-apexcharts](https://github.com/wobsoriano/solid-apexcharts)
 - [solid-chartjs](https://github.com/s0ftik3/solid-chartjs)
 - [D3](https://github.com/d3/d3)
+- [gitgraph](https://github.com/nicoespeon/gitgraph.js)
+- [vscode-git-graph](https://github.com/mhutchie/vscode-git-graph)
 
 canvas
 - https://github.com/slaylines/canvas-engines-comparison
@@ -79,7 +81,7 @@ cad
 - [Open JSCAD](https://github.com/jscad/OpenJSCAD.org)
 - [fornjot](https://github.com/hannobraun/fornjot/issues/815)
 - [truck](https://github.com/ricosjp/truck/issues/38)
-- [onshape](https://www.onshape.com/en/)
+- [onshape](https://www.onshape.com/en/) (perhaps they have an embed, but really as long as they have a file export we can work with that. even if it means we have no media display and people upload/download the files manually.)
 
 
 MD
@@ -121,5 +123,6 @@ data structures:
 - https://www.markdownguide.org/
 - https://en.wikipedia.org/wiki/Audio_file_format
 - https://en.wikipedia.org/wiki/Category:3D_graphics_file_formats
-
+- https://gka.github.io/chroma.js/#chroma-oklab
+- generic files/blobs
 

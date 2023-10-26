@@ -22,6 +22,7 @@ file handling?
 One of the architectural possibilities is that we use a versioned database to handle submissions and merging:
   - Example TerminusDB: here a [branch is created](https://terminusdb.com/docs/branch-a-project/) per submission and apply those diffs to the main branch when the vote is over.
     - [terminus overview](https://terminusdb.com/products/terminusdb/)
+    - [js client](https://github.com/terminusdb/terminusdb-client-js)
   - another such database is Dolt: which also provides [versioning at the data layer](https://docs.dolthub.com/introduction/use-cases/vc-your-app)
     - [js example](https://github.com/dolthub/dolt-knexjs-example/blob/main/index.js)
 
