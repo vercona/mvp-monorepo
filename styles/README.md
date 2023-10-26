@@ -4,6 +4,7 @@ Just brainstorming, I need to think about this more.
 - [solid styled](https://github.com/lxsmnsyc/solid-styled)
 - [sfc also sort of exist](https://github.com/lxsmnsyc/solid-sfc/blob/main/examples/counter/src/App.solid.tsx)
 - [vite css modules](https://github.com/Bluskript/vite-plugin-inline-css-modules)
+<!-- https://github.com/solidjs/solid-styled-jsx -->
 
 
 ## On Color Space:
