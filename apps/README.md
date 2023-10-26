@@ -96,6 +96,12 @@ Code Editor
 misc:
 - [useEyeDropper](https://solidjs-use.github.io/solidjs-use/core/useEyeDropper)
 
+Others:
+- kanban
+- gantt
+- story boards
+- story plot node editor
+- etc.
 
 data structures:
 - https://github.com/CorentinTh/quadtree-js
