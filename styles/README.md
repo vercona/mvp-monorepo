@@ -1,5 +1,9 @@
 Just brainstorming, I need to think about this more. 
 
+## Some potential Style Libs
+- [solid styled](https://github.com/lxsmnsyc/solid-styled)
+- [sfc also sort of exist](https://github.com/lxsmnsyc/solid-sfc/blob/main/examples/counter/src/App.solid.tsx)
+- [vite css modules](https://github.com/Bluskript/vite-plugin-inline-css-modules)
 
 
 ## On Color Space:
@@ -133,8 +137,6 @@ may be possible to create a global [directive](https://docs.solidjs.com/referenc
 }
 ```
 
-[solid styled](https://github.com/lxsmnsyc/solid-styled)
-[sfc also sort of exist](https://github.com/lxsmnsyc/solid-sfc/blob/main/examples/counter/src/App.solid.tsx)
 ```jsx
 function HelloWorld() {
   css`
